@@ -1,59 +1,58 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "StartBridge Platform",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+    "StartBridge is a founder-first startup intelligence and execution platform designed to help early-stage builders move from idea to traction with clarity, structure, and real-world guidance. It brings together founder profiling, startup validation, execution tracking, and ecosystem access into a single focused system—built for people actually building, not just pitching.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Unlike generic incubators or content platforms, StartBridge is built around the founder’s journey. It helps founders document their credibility, validate ideas early, connect with the right ecosystem players, and stay execution-driven. The platform prioritizes signal over noise—progress, consistency, and proof of work—making it easier for serious founders to stand out and move forward."
     ],
-    href: "",
+    href: "https://www.startbridge.online",
+    github: "https://github.com/adarsh005599/StartBridge-",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/Startbridge.png",
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
       },
       {
         id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 3,
-        name: "Ef Core",
+        name: "NodeJs",
         path: "/assets/logos/efcore.png",
       },
       {
         id: 4,
-        name: "TailwindCSS",
+        name: "MongoDb",
         path: "/assets/logos/tailwindcss.svg",
       },
     ],
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "StarkDesk",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+    "StarkDesk is a suite of AI-powered tools built to solve real, practical problems for individuals, creators, and early-stage teams. Instead of being a single-purpose AI app, it’s designed as a unified workspace where multiple AI utilities live under one product.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+    " A unified AI productivity suite that brings multiple real-world tools into a single, consistent platform.",
+"Designed with a utility-first approach, focusing on practical outcomes rather than experimental AI demos.",
+"Built as a scalable SaaS with proper authentication, API integrations, storage, and deployment architecture.",
+"Helps creators, students, and early teams save time by automating repetitive and high-effort tasks.",
     ],
-    href: "",
+    href: "https://star-desk.vercel.app",
+    github: "https://github.com/adarsh005599/StarDesk",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/Startdesk.png",
     tags: [
       {
         id: 1,
-        name: "Auth0",
+        name: "NodeJs",
         path: "/assets/logos/auth0.svg",
       },
       {
@@ -63,7 +62,7 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "SQLite",
+        name: "Postgress-Neon",
         path: "/assets/logos/sqlite.svg",
       },
       {
@@ -75,32 +74,34 @@ export const myProjects = [
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "Real Time Chat Application",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "A modern, interactive web application built with Socket.io WebSocket and PREN",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
+      "Developed a fully interactive Real Time Application using Socket.io.",
+      "Implemented API interactions using Node/Express for a robust backend.",
       "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "Integrated Postgress-Neon for efficient client-side database storage.",
     ],
-    href: "",
+    href: "https://quickchat-6vkt.onrender.com",
+    github: "https://github.com/adarsh005599/Real-Time-Chat-App-with-Socket.io-",
+
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/ChatApp.png",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: ".NET Core",
+        name: "NodeJs",
         path: "/assets/logos/dotnetcore.svg",
       },
       {
         id: 3,
-        name: "SQLite",
+        name: "Socket.io",
         path: "/assets/logos/sqlite.svg",
       },
       {
@@ -112,60 +113,65 @@ export const myProjects = [
   },
   {
     id: 4,
-    title: "C++ Game Engine",
+    title: "FixMyCity",
     description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
+      "FixMyCity is Complaint based Web application to solve the civic issue's.",
+      
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+      "Civic-Complaint based platform to solve the bad infrasture issue's.",
+      "Platform help Citizens to submit the civic report to the goverment autorities.",
+      "Used React, Tailwind, firebase for Auth and cloudinary to Media Storage.",
+      "India have Civic problem but only gonna solve if everyone put thier responsibilites.",
     ],
-    href: "",
+    href: "https://jharkhand-fix-my-city.vercel.app",
+    github: "https://github.com/adarsh005599/Jharkhand--fixMyCity",
+
     logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    image: "/assets/projects/FixMyCity.png",
     tags: [
       {
         id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "Tailwind",
+        path: "/assets/logos/tailwindcss.svg",
       },
       {
         id: 3,
-        name: "Git",
+        name: "Firebase",
         path: "/assets/logos/git.svg",
       },
       {
         id: 4,
-        name: "Microsoft",
+        name: "Cloudinary",
         path: "/assets/logos/microsoft.svg",
       },
     ],
   },
   {
     id: 5,
-    title: "WordPress Custom Theme",
+    title: "Imagify",
     description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
+      "A Image Genrator Web Application help to produce Image from text.",
     subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
+      "Develope with React, TailwindCss, MongoDb, Razorpay.",
       "Integrated Tailwind CSS for modern styling and UI enhancements.",
       "Optimized SEO and page speed using Vite.js for fast builds.",
       "Implemented custom widgets and plugin compatibility for extended functionality.",
     ],
-    href: "",
+    href: "https://imagify-fullstack-frontend.onrender.com",
+        github: "https://github.com/adarsh005599/IMAGIFY-FullStack",
+
     logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
+    image: "/assets/projects/image1.png",
     tags: [
       {
         id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
@@ -186,37 +192,39 @@ export const myProjects = [
   },
   {
     id: 6,
-    title: "Online Learning Platform",
+    title: "Machine Learning Project",
     description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
+      "Project that include Model prediction and Model training based on Dataset",
     subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
+      "This contains project's like Diabetes prediction, Loan prediction, House price Prediction, etc.",
+      "Also have projects with Reccomandation System using dataset's ",
+      "Used Python and it's Lib like Numpy, Pandas, MatplotLib, Seaborn, Skcite-Learn, etc.",
+      ".",
     ],
-    href: "",
+    href: "https://github.com/adarsh005599/Python-Library-Data-Analysis-ML",
+        github: "https://github.com/adarsh005599/Python-Library-Data-Analysis-ML",
+
     logo: "",
-    image: "/assets/projects/elearning.jpg",
+    image: "/assets/projects/image.png",
     tags: [
       {
         id: 1,
-        name: "Blazor",
+        name: "Python",
         path: "/assets/logos/blazor.svg",
       },
       {
         id: 2,
-        name: "Azure",
+        name: "Sckit-learn",
         path: "/assets/logos/azure.svg",
       },
       {
         id: 3,
-        name: "Stripe",
+        name: "Pytorch",
         path: "/assets/logos/stripe.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
+        name: "Kaggel",
         path: "/assets/logos/tailwindcss.svg",
       },
     ],
@@ -225,39 +233,34 @@ export const myProjects = [
 
 export const mySocials = [
   {
-    name: "WhatsApp",
-    href: "",
-    icon: "/assets/socials/whatsApp.svg",
+    name: "Email",
+    href: "mailto:adarshsingh821109@gmail.com",
+    icon: "/assets/socials/Gmail.png",
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/adarsh-singh0099",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
+    href: "",
     icon: "/assets/socials/instagram.svg",
+  },
+  {
+    name: "Github",
+    href: "https://github.com/adarsh005599",
+    icon: "/assets/socials/image.png",
   },
 ];
 
+
 export const experiences = [
+ 
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
-    contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
-    ],
-  },
-  {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Frontend Developer",
+    job: "InternPe",
+    date: "Aug-2025 to Oct-2025",
     contents: [
       "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
       "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
@@ -268,61 +271,66 @@ export const experiences = [
   },
   {
     title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
+    job: "Full-Stack Developer",
+    date: "Sep-2025 to Nov-2025",
     contents: [
+      "✅Provide the Civic based Goverment platform to track the compaint's issued by Citizen's ",
       "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
       "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+    ],
+  },
+  {
+    title: "Founder of startbridge",
+    date: "oct-2025-Present",
+    contents: [
+      "Building a Ecosystem that Help's Early india's Early Founders from tier2/3 to connect them with the Menotr's, Investors and Incubator's",
+      "It's very Tricky to Build a Startup from these corners of india and get Access of the Funding, Validation, Mentorship, Co-Founder and Team",
+      "StartBridge is On it's Misson to Close that Gap for those Founders Beyond Metros"
     ],
   },
 ];
 export const reviews = [
   {
-    name: "Jack",
-    username: "@jack",
+    name: "Happy",
+    username: "@Happy",
     body: "I've never seen anything like this before. It's amazing. I love it.",
     img: "https://robohash.org/jack",
   },
   {
-    name: "Jill",
-    username: "@jill",
+    name: "Khushi Singh",
+    username: "@singh",
     body: "I don't know what to say. I'm speechless. This is amazing.",
     img: "https://robohash.org/jill",
   },
   {
-    name: "John",
-    username: "@john",
+    name: "Atul",
+    username: "@Atul",
     body: "I'm at a loss for words. This is amazing. I love it.",
     img: "https://robohash.org/john",
   },
   {
-    name: "Alice",
-    username: "@alice",
+    name: "Manjit",
+    username: "@Manjee",
     body: "This is hands down the best thing I've experienced. Highly recommend!",
     img: "https://robohash.org/alice",
   },
   {
-    name: "Bob",
-    username: "@bob",
+    name: "Shaurya",
+    username: "@Shaurya Singh",
     body: "Incredible work! The attention to detail is phenomenal.",
     img: "https://robohash.org/bob",
   },
   {
-    name: "Charlie",
-    username: "@charlie",
+    name: "Harsh",
+    username: "@Brocode",
     body: "This exceeded all my expectations. Absolutely stunning!",
     img: "https://robohash.org/charlie",
   },
   {
     name: "Dave",
-    username: "@dave",
+    username: "@hacker",
     body: "Simply breathtaking. The best decision I've made in a while.",
     img: "https://robohash.org/dave",
   },
-  {
-    name: "Eve",
-    username: "@eve",
-    body: "So glad I found this. It has changed the game for me.",
-    img: "https://robohash.org/eve",
-  },
+ 
 ];
