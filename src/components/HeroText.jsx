@@ -31,9 +31,9 @@ const HeroText = () => {
     >
       {/* Status Badge */}
       <motion.div variants={item} className="inline-flex items-center gap-2 mb-8">
-        <span className="flex h-2 w-2 rounded-full bg-orange-500 animate-pulse" />
+        <span className="flex h-2 w-2 rounded-full bg-orange-600 animate-pulse" />
         <p className="text-[10px] uppercase tracking-[0.4em] text-neutral-500 font-bold">
-          Currently Building StartBridge
+          Currently Building STARTBRIDGE
         </p>
       </motion.div>
 
